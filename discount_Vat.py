@@ -6,9 +6,9 @@ sole = price * (sale/100)
 endprice = price - sole
 vat = price * 0.07
 ovrprice = endprice + vat
-st.header(f"•ราคาเต็ม (บาท): {price:.2f} บาท")
-st.header(f"• ส่วนลดที่ลด (บาท): {sole:.2f} บาท")
-st.header(f"• ส่วนลด (%): {endprice:.2f} บาท")
+st.header(f"•ราคาเต็ม : {price:.2f} บาท")
+st.header(f"• เหลือ : {sole:.2f} บาท")
+st.header(f"• ส่วนลด : {endprice:.2f} บาท")
 st.header(f"• vat7%: {vat:.2f} บาท")
 st.header(f"• ราคาสุทธิ: {ovrprice:.2f} บาท")
 
